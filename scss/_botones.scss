@@ -1,0 +1,5 @@
+@each $color in $colores {
+    .boton-#{$color} {
+        background: $color ;
+    }
+}
